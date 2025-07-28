@@ -41,6 +41,7 @@ build/Release
 node_modules/
 frontend/node_modules/
 jspm_packages/
+allure-results/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
