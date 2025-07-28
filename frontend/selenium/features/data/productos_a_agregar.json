@@ -1,0 +1,114 @@
+[
+    {
+        "sku": "SKU-I16",
+        "description": "Iphone 16",
+        "stock": "2540",
+        "buyingCost": "3245",
+        "salePrice": "4890",
+        "measureUnit": "unit"
+    },
+    {
+        "sku": "SKU-1",
+        "description": "SKU-1 válido - Stock 5 - Costo 0,23 - Precio Venta 0,53 - Unidad",
+        "stock": "5",
+        "buyingCost": "0,23",
+        "salePrice": "0,53",
+        "measureUnit": "unit"
+    },
+    {
+        "sku": "SKU-2",
+        "description": "SKU-2 válido - Stock 10 - Costo 5,24 - Precio Venta 9,54 - Kilogramo",
+        "stock": "10",
+        "buyingCost": "5,24",
+        "salePrice": "9,54",
+        "measureUnit": "kg"
+    },
+    {
+        "sku": "SKU-3",
+        "description": "SKU-3;SKU-3 válido - Stock 100 - Costo 5700,25 - Precio Venta 100000,00 - Caja",
+        "stock": "100",
+        "buyingCost": "57000,25",
+        "salePrice": "100000,00",
+        "measureUnit": "box"
+    },
+    {
+        "sku": "SKU-maximos",
+        "description": "Producto con Stock, Costo y Precio de Venta igual a sus máximos",
+        "stock": "2147483647",
+        "buyingCost": "9999999999999,99",
+        "salePrice": "9999999999999,99",
+        "measureUnit": "kg"
+    },
+    {
+        "sku": "SKU-I16",
+        "description": "Producto con SKU-I16 ya existente: Iphone 16",
+        "stock": "17",
+        "buyingCost": "27,00",
+        "salePrice": "37,00",
+        "measureUnit": "unit"
+    },
+    {
+        "sku": "SKU-S-C-P-0s",
+        "description": "Producto con Stock, Costo y Precio de Venta en cero",
+        "stock": "0",
+        "buyingCost": "0,00",
+        "salePrice": "0,00",
+        "measureUnit": "unit"
+    },
+    {
+        "sku": "",
+        "description": "Producto sin SKU",
+        "stock": "1",
+        "buyingCost": "1,23",
+        "salePrice": "2,34",
+        "measureUnit": "unit"
+    },
+    {
+        "sku": "SKU-Sin-Desc-ni-valores",
+        "description": "",
+        "stock": "",
+        "buyingCost": "",
+        "salePrice": "",
+        "measureUnit": ""
+    },
+    {
+        "sku": "SKU-negativos",
+        "description": "Producto con Stock, Costo y Precio de Venta negativos",
+        "stock": "-1",
+        "buyingCost": "-1,01",
+        "salePrice": "-1,02",
+        "measureUnit": "kg"
+    },
+    {
+        "sku": "SKU-maximos+1",
+        "description": "Producto con Stock, Costo y Precio de Venta > sus máximos permitidos",
+        "stock": "2147483648",
+        "buyingCost": "10000000000000,00",
+        "salePrice": "10000000000000,00",
+        "measureUnit": "box"
+    },
+    {
+        "sku": "SKU-mayor-maximo78901234567890-33",
+        "description": "abcdefghijklmnopqrstuvwxyz,.”#$%&/()+[]{}-Abcdefghijklmnñopqrstuvwxyz-aBCDEFGHIJKLMNOPQRSTUVWXYZ-AbCdEfGhiJkLmNñOpQrStUvWxYz-abcdefghijklmnopqrstuvwxyz-Abcdefghijklmnñopqrstuvwxyz-aBCDEFGHIJKLMNOPQRSTUVWXYZ-AbCdEfGhiJkLmNñOpQrStUvWxYz-ABCDEFGHIJKmaximo256",
+        "stock": "10000",
+        "buyingCost": "123456,78",
+        "salePrice": "9876543,21",
+        "measureUnit": "box"
+    },
+    {
+        "sku": "SKU-con-Desc-garabatos",
+        "description": "#$%&/?¿¡°¬|",
+        "stock": "5",
+        "buyingCost": "1,23",
+        "salePrice": "2,34",
+        "measureUnit": "kg"
+    },
+    {
+        "sku": "#$%&/?¿¡°¬",
+        "description": "SKU-con-Codigo-garabatos",
+        "stock": "2",
+        "buyingCost": "2,24",
+        "salePrice": "2,35",
+        "measureUnit": "unit"
+    }
+]
