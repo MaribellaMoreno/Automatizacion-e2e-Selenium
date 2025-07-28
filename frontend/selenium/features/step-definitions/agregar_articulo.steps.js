@@ -1,7 +1,7 @@
 const { Given, When, Then } = require('@wdio/cucumber-framework');
 const DashboardPage = require('../pageobjects/dashboard.page');
 const ArticulosPage = require('../pageobjects/articulos.page');
-const CrearArticuloPage = require('../pageobjects/crear_articulo.page');
+const NuevoPage = require('../pageobjects/nuevo.page.js');
 
 const { ingresarAlModuloArticulos } = require('../utils/login.utils.js');
 
@@ -19,8 +19,8 @@ When('ingresa los datos del nuevo producto con: {string}, {string}, {string}, {s
     async (codigosku, descripcion, stock, costo, precio, tipoum) => { console.log(codigosku, descripcion, stock, costo, precio, tipoum);
         const costoConvertido = costo.replace(',', '.');
         const precioConvertido = precio.replace(',', '.');
-        await CrearArticuloPage.completarFormulario({ codigosku, descripcion, stock, costo: costoConvertido, precio: precioConvertido, tipoum });
-        await CrearArticuloPage.clickGuardar();
+        await NuevoPage.completarFormulario({ codigosku, descripcion, stock, costo: costoConvertido, precio: precioConvertido, tipoum });
+        await NuevoPage.clickGuardar();
     }
 );
 
