@@ -16,6 +16,15 @@ When('inicia sesión con el email {string} y la clave {string}', async (usuario,
     await LoginPage.login(usuario, clave);
 });
 
+When('intenta iniciar sesión con el email {string} y la clave {string}', async (email, clave) => {
+    await LoginPage.loginFallido(email, clave);
+});
+
 Then('se valida el mensaje {string}', async (mensajeEsperado) => {
     await DashboardPage.validarBienvenida(mensajeEsperado);
+});
+
+Then('se valida el mensaje de error {string}', async (mensajeEsperado) => {
+    const mensajeObtenido = await LoginPage.obtenerMensajeError();
+    await expect(mensajeObtenido).toContain(mensajeEsperado);
 });
