@@ -5,7 +5,7 @@ Feature: Agregar artículo
   Para registrar un nuevo producto
 
   Background:
-    Given el usuario se encuentra autenticado y esta en la lista de articulos
+    Given el usuario se encuentra autenticado y esta en Dashboard
     
   @agregararticuloexitosamente
   Scenario Outline: Usuario registra un producto de manera exitosa

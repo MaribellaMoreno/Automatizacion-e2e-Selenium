@@ -29,6 +29,22 @@ class NuevoPage extends BasePage {
         const urlArticulo = await browser.getUrl();
         expect(urlArticulo).toContain('/articulos');
     }
+
+    async editarFormularioYGuardar({ codigosku, descripcion, stock, costo, precio, tipoum }) {
+        const costoConvertido = costo.replace(',', '.');
+        const precioConvertido = precio.replace(',', '.');
+
+        await this.completarFormulario({
+            codigosku,
+            descripcion,
+            stock,
+            costo: costoConvertido,
+            precio: precioConvertido,
+            tipoum
+        });
+
+        await this.clickGuardar();
+    }
 }
 
 module.exports = new NuevoPage();

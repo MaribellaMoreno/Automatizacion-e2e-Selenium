@@ -3,10 +3,15 @@ const LoginPage = require('../pageobjects/login.page');
 const DashboardPage = require('../pageobjects/dashboard.page');
 
 //Ingreso a modulo Dashboard
-async function ingresarAlModuloArticulos() {
+async function ingresarAlModuloDashboard() {
     await browser.url('/login'); 
     await LoginPage.login('testeradl@test.com', 'Tester@2025');
-    await browser.pause(3000);
+}
+
+//Ingreso a modulo Articulos
+async function ingresarAlModuloArticulos() {
+    await ingresarAlModuloDashboard(); 
+    await DashboardPage.irAArticulos();
 }
 
 // Devuelve el valor real de una clave simbólica usada en los escenarios Gherkin.
@@ -23,4 +28,4 @@ function obtenerDatoDesdeClave(clave) {
     return campos[clave] ?? clave;
 }
 
-module.exports = { obtenerDatoDesdeClave, ingresarAlModuloArticulos };
+module.exports = { obtenerDatoDesdeClave, ingresarAlModuloDashboard, ingresarAlModuloArticulos };
