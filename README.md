@@ -1,9 +1,6 @@
 # 🎓 Proyecto "Test Automation Engineer"
 
 Este repositorio contiene el desarrollo completo de pruebas automatizadas sobre una aplicación web y su API, utilizando diversas tecnologías para simular entornos reales de trabajo en automatización de pruebas.
-# 🎓 Proyecto Final - Bootcamp "Test Automation Engineer" (TAE-ADL)
-
-Este repositorio contiene el desarrollo completo del proyecto final del Bootcamp **Test Automation Engineer** impartido por Desafío LATAM. Se implementaron pruebas automatizadas sobre una aplicación web y su API, utilizando diversas tecnologías para simular entornos reales de trabajo en automatización de pruebas.
 
 ## 📂 Estructura del Proyecto
 
