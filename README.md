@@ -1,37 +1,66 @@
-# Proyecto-TAE-ADL
-Proyecto Final: Bootcamp "Test Automation Engineer" - Desafío Academia LATAM.
+# 🎓 Proyecto "Test Automation Engineer"
 
-## Branching Model.
+Este repositorio contiene el desarrollo completo de pruebas automatizadas sobre una aplicación web y su API, utilizando diversas tecnologías para simular entornos reales de trabajo en automatización de pruebas.
 
---> Frontend
-    --> chore/estructura-del-proyecto
+Proyecto-TAE-ADL/
+│
+├── frontend/
+│   ├── playwright/           # 5 pruebas E2E con Playwright
+│
+├── backend/
+│   ├── postman-newman/       # Pruebas de API automatizadas con Postman + colección Newman
+│   ├── supertest-jest/       # Pruebas de API programadas con Supertest + Jest
 
-    --> frontend/cypress #version final de Cypress
-        --> 5 pruebas
-    --> frontend/selenium #version final de Selenium
-        --> 5 pruebas
-    --> frontend/playwright #version final de Playwright
-        --> 5 pruebas
-
-    --> feat/frontend/cypress/check-products
-    --> feat/frontend/selenium/check-products
-    --> feat/frontend/playwright/check-products
-
-    --> feat/frontend/cypress/new-product
-    --> feat/frontend/selenium/new-product
-    --> feat/frontend/playwright/new-product
-
-    --> feat/frontend/cypress/...
-    --> feat/frontend/selenium/...
-    --> feat/frontend/playwright/...
+🌐 Tecnologías Utilizadas
+Selenium + WebDriverIO + Cucumber + Allure (Frontend)
+Postman + Newman (Backend)
+Supertest + Jest (Backend)
+Git y GitHub para control de versiones
 
 
---> Backend
-    --> chore/estructura-del-proyecto
-    
-        -->backend/postman-newman
-        -->backend/supertest-jest
+🧪 Pruebas Automatizadas
+🖥 Frontend
+Login de usuario
+Creación de nuevo producto
+Actualización de producto existente
+Eliminación de producto
+Consulta de listado de productos
+Cada prueba automatiza flujos reales de usuarios sobre la interfaz web con distintas herramientas de testing, comparando rendimiento y facilidad de mantenimiento.
 
---> Mobile
+🔁 Backend (API REST)
+Pruebas CRUD de productos
+Validaciones de status code, payload y headers
+Automatización y ejecución vía CLI (Postman y Newman)
 
-## Estructura del Directorio
+👩‍💻 Mi Rol
+Diseño de estrategia de pruebas E2E en múltiples herramientas.
+Implementación de pruebas automatizadas para frontend y backend.
+Aplicación de buenas prácticas: BDD, Page Object Model, uso de async/await, validaciones con expect, reportes Allure.
+Coordinación con el equipo para estandarizar ramas y convenciones.
+
+📸 Evidencias
+Incluye:
+Capturas de reportes Allure
+Evidencias de ejecución con consola
+Screenshots de pruebas en ejecución (visuales)
+(Puedes subir imágenes a la carpeta /screenshots y enlazarlas aquí si aún no lo has hecho)
+
+🔧 Ejecución del Proyecto
+Selenium
+bash
+Copiar
+Editar
+cd frontend/selenium
+npm install
+npx wdio run wdio.conf.js
+
+📍 Enlace al Proyecto
+Puedes visualizar los archivos y el código en GitHub:
+🔗 https://github.com/maribellamoreno/Automatizacion-e2e-Selenium
+
+✨ Reflexión
+Este proyecto representa la consolidación de mis habilidades en automatización de pruebas para entornos frontend y backend. Me permitió aplicar herramientas modernas, adoptar buenas prácticas como el patrón POM y simular entornos colaborativos con uso de ramas y control de versiones.
+
+📞 Contacto
+💼 LinkedIn: https://www.linkedin.com/in/maribella-moreno-qa-ciberseguridad/
+📧 maribella.webs@gmail.com
