@@ -10,15 +10,11 @@ Este repositorio contiene el desarrollo completo del proyecto final del Bootcamp
 Proyecto-TAE-ADL/
 │
 ├── frontend/
-│   ├── cypress/              # 5 pruebas E2E con Cypress
 │   ├── selenium/             # 5 pruebas E2E con Selenium + WebDriverIO + Cucumber + Allure
-│   ├── playwright/           # 5 pruebas E2E con Playwright
 │
 ├── backend/
 │   ├── postman-newman/       # Pruebas de API automatizadas con Postman + colección Newman
 │   ├── supertest-jest/       # Pruebas de API programadas con Supertest + Jest
-│
-└── mobile/                   # Carpeta para pruebas móviles (estructura base)
 
 🧪 Pruebas Automatizadas
 🖥 Frontend
