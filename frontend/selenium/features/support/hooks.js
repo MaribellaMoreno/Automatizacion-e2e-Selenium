@@ -13,5 +13,5 @@ After(async function (scenario) {
     const screenshot = await browser.takeScreenshot();
     await this.attach(screenshot, 'image/png'); // Adjunta imagen al reporte Allure
   }
-  // Puedes agregar limpieza de sesión o logout aquí si lo deseas
+  
 });

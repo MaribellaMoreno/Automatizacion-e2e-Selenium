@@ -3,11 +3,11 @@ const DashboardPage = require('../pageobjects/dashboard.page');
 const ArticulosPage = require('../pageobjects/articulos.page');
 const NuevoPage = require('../pageobjects/nuevo.page.js');
 
-const { ingresarAlModuloArticulos } = require('../utils/login.utils.js');
+const { ingresarAlModuloDashboard } = require('../utils/login.utils.js');
 
 
-Given('el usuario se encuentra autenticado y esta en la lista de articulos', async () => {
-    await ingresarAlModuloArticulos();
+Given('el usuario se encuentra autenticado y esta en Dashboard', async () => {
+    await ingresarAlModuloDashboard();
 });
 
 When('el usuario ingresa a Crear un Nuevo Artículo', async () => {
