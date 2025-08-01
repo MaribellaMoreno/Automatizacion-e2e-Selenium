@@ -1,6 +1,7 @@
 # 🎓 Proyecto "Test Automation Engineer"
 
-Este repositorio contiene el desarrollo completo de pruebas automatizadas sobre una aplicación web y su API, utilizando diversas tecnologías para simular entornos reales de trabajo en automatización de pruebas.
+✨ Presentación
+Este proyecto representa la consolidación de mis habilidades en automatización de pruebas para entornos frontend y backend. Me permitió aplicar herramientas modernas, adoptar buenas prácticas como el patrón POM y simular entornos colaborativos con uso de ramas y control de versiones. Este repositorio contiene el desarrollo completo de pruebas automatizadas sobre una aplicación web y su API, utilizando diversas tecnologías para simular entornos reales de trabajo en automatización de pruebas.
 
 ## 📂 Estructura del Proyecto
 
@@ -52,9 +53,6 @@ npx wdio run wdio.conf.js
 📍 Enlace al Proyecto
 Puedes visualizar los archivos y el código en GitHub:
 🔗 https://github.com/maribellamoreno/Automatizacion-e2e-Selenium
-
-✨ Reflexión
-Este proyecto representa la consolidación de mis habilidades en automatización de pruebas para entornos frontend y backend. Me permitió aplicar herramientas modernas, adoptar buenas prácticas como el patrón POM y simular entornos colaborativos con uso de ramas y control de versiones.
 
 📞 Contacto
 💼 LinkedIn: https://www.linkedin.com/in/maribella-moreno-qa-ciberseguridad/
