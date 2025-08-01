@@ -1,22 +1,24 @@
 # 🎓 Proyecto "Test Automation Engineer"
 
 Este repositorio contiene el desarrollo completo de pruebas automatizadas sobre una aplicación web y su API, utilizando diversas tecnologías para simular entornos reales de trabajo en automatización de pruebas.
+# 🎓 Proyecto Final - Bootcamp "Test Automation Engineer" (TAE-ADL)
+
+Este repositorio contiene el desarrollo completo del proyecto final del Bootcamp **Test Automation Engineer** impartido por Desafío LATAM. Se implementaron pruebas automatizadas sobre una aplicación web y su API, utilizando diversas tecnologías para simular entornos reales de trabajo en automatización de pruebas.
+
+## 📂 Estructura del Proyecto
 
 Proyecto-TAE-ADL/
 │
 ├── frontend/
+│   ├── cypress/              # 5 pruebas E2E con Cypress
+│   ├── selenium/             # 5 pruebas E2E con Selenium + WebDriverIO + Cucumber + Allure
 │   ├── playwright/           # 5 pruebas E2E con Playwright
 │
 ├── backend/
 │   ├── postman-newman/       # Pruebas de API automatizadas con Postman + colección Newman
 │   ├── supertest-jest/       # Pruebas de API programadas con Supertest + Jest
-
-🌐 Tecnologías Utilizadas
-Selenium + WebDriverIO + Cucumber + Allure (Frontend)
-Postman + Newman (Backend)
-Supertest + Jest (Backend)
-Git y GitHub para control de versiones
-
+│
+└── mobile/                   # Carpeta para pruebas móviles (estructura base)
 
 🧪 Pruebas Automatizadas
 🖥 Frontend
